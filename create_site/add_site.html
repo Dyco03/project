@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="add_site.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="connecter">
+            <h2 class="auth-title">Création de site</h2>
+            <form method="GET" action="main.cgi">
+                <div class="form-group">
+                    <label for="server_name">ServerName</label>
+                    <input required type="text" name="server_name" id="server_name" placeholder="ServerName">
+                </div>
+                <div class="form-group">
+                    <label for="mdp">ServerAlias</label>
+                    <input required type="text" name="mdp" id="mdp" placeholder="ServerAlias">
+                </div>
+                <div class="form-group">
+                    <label for="Document_root">DocumentRoot</label>
+                    <input required type="text" name="Document_root" id="Document_root" placeholder="DocumentRoot">
+                </div>
+                <div class="form-group">
+                    <label for="directory">Directory</label>
+                    <input required type="text" name="directory" id="directory" placeholder="Directory">
+                </div>
+
+                <div class="options">
+                    <strong>Options:</strong>
+                    <div class="form-group">
+                        <input type="checkbox" name="execCGI" id="execCGI">
+                        <label for="execCGI">ExecCGI</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" name="indexes" id="indexes">
+                        <label for="indexes">Indexes</label>
+                    </div>
+                </div>
+
+                <input class="submit-btn" type="submit" value="Envoyer">
+            </form>
+        </div>
+
+        <div class="separator"></div>
+
+        <div class="connecter">
+            <p class="list-title">Liste :</p>
+            <ul>
+                <li><a href="liste.cgi?choice=0" class="link">site</a></li>
+                <li><a href="liste.cgi?choice=1" class="link">site activé</a></li>
+                <li><a href="liste.cgi?choice=2" class="link">site désactivé</a></li>
+            </ul>
+        </div>
+
+        <div class="separator"></div>
+
+        <div class="connecter">
+            <p class="link2"><a href="liste.cgi?choice=1">Activation de site</a></p>
+            <p class="link2"><a href="liste.cgi?choice=2">Désactivation de site</a></p>
+        </div>
+    </div>
+
+</body>
+
+</html>

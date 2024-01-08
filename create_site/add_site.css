@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.connecter {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.auth-title {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.options {
+    margin-bottom: 15px;
+}
+
+.options label {
+    margin-right: 10px;
+}
+
+.submit-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+.list-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: xx-large;
+}
+
+.separator {
+    height: 20px;
+    width: 100%;
+}
+/* ... (votre code CSS existant) ... */
+li{
+    margin: 50px;
+}
+.link {
+    background-color: #3498db; /* Couleur de fond pour le lien spécial */
+    color: #fff; /* Couleur du texte pour le lien spécial */
+    padding: 5px; /* Espacement interne pour le lien spécial */
+    border-radius: 4px; /* Coins arrondis pour le lien spécial */
+    text-decoration: none;
+    font-size: x-large;
+    transition: background-color 0.3s ease; /* Transition de couleur de fond fluide */
+}
+
+.link a {
+    text-decoration: none; /* Supprime le soulignement du lien spécial */
+    color: #fff; /* Couleur du texte pour le lien spécial */
+}
+
+.link:hover {
+    background-color: #2980b9; /* Couleur de fond au survol du lien spécial */
+}
+
+/* ... (votre code CSS existant) ... */
