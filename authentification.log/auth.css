@@ -1,0 +1,96 @@
+body
+{
+	background-color:silver;
+}
+.DIV1
+{
+	margin-left:50%;
+	transform:translate(-50%,0%);
+}
+h1
+{
+	text-align: center;
+	font-size: 50px;
+	color:rgb(0, 140, 255);
+	font-family: monospace;
+}
+TABLE
+{
+	box-shadow:10px 10px 10px black, -10px -10px 10px black;
+	margin-bottom: 30copx;
+	
+}
+
+TABLE,TR,TH,TD
+{	
+	font-size:xx-large;
+	border:2px solid black;
+	border-collapse:collapse;
+	padding-right:10px;
+	padding-left:10px;
+}
+TR,TH,TD
+{
+	width: 400px;
+	height:60px;
+	box-shadow:3px 3px 3px black, -3px -3px 3px black;
+}
+A
+{
+	text-decoration:none;
+	background-color:silver;
+	font-weight:bold;
+	font-size:large;
+	color:black;
+	border:3px inset gainsboro;
+	border-radius:50%;
+	margin:5px;
+	text-align:center;
+	padding:10px;
+}
+.opened
+{	
+	color:green;
+}
+.closed
+{
+	color:red;
+}
+.ligne
+{
+	font-weight:bold;
+	font-size:x-large;
+}
+.deconnexion
+{
+	margin-top: 50px;
+	border:2px rgb(0, 140, 255) solid;
+	background-color:rgb(0, 140, 255) ;
+	border-radius:10px;
+	font-size:xx-large;
+	text-align: center;
+	margin-left:40%;
+}
+LABEL
+{
+	font-size:x-large;
+}
+
+INPUT
+{
+	border-radius:10px;
+	width:300px;
+	height:30px;
+	font-size:large;
+}
+
+
+INPUT[TYPE="SUBMIT"]
+{
+	border:2px black solid;
+	border-radius:10px;
+	width:300px;
+	height:30px;
+	font-size:large;
+	background-color:rgb(0, 140, 255);
+}
