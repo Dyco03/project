@@ -1,0 +1,2 @@
+pseudo=stephen;mdp=87654321
+pseudo=dyco;mdp=12345678
